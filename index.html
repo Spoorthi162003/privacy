@@ -1,0 +1,7 @@
+<h2>Main Page</h2>
+<p>Templates: {{ templates_count }}</p>
+<p>Assessments: {{ assessments_count }}</p>
+
+<a href="{{ url_for('templates_list') }}">Templates</a> |
+<a href="{{ url_for('assessments_list') }}">Assessments</a> |
+<a href="{{ url_for('logout') }}">Logout</a>
